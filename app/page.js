@@ -8,11 +8,7 @@ export default function Home() {
       backgroundImage: "url('/images/facilities/dscn0613-orig_orig.jpg')"
     }}>
       <div className="bg-white/85">
-        <Hero 
-          title="Stable Isotope Ratio Facility for Environmental Research"
-          subtitle="Advancing science through precision isotope analysis since 1986"
-          backgroundImage="/images/facilities/dscn0613-orig_orig.jpg"
-        />
+        <Hero />
         <section className="py-16 max-w-6xl mx-auto px-4 lg:px-8">
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-slate-900 mb-4">About SIRFER</h2>

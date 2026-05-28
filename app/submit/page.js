@@ -198,7 +198,7 @@ export default function Submit() {
                   <p className="text-slate-700 mt-2">
                     <a href="mailto:sirfer@utah.edu" className="text-blue-600 hover:underline">sirfer@utah.edu</a>
                   </p>
-                  <p className="text-slate-800 font-semibold mt-4">Subject line suggestion:</strong></p>
+                  <p className="text-slate-800 font-semibold mt-4"><strong>Subject line suggestion:</strong></p>
                   <p className="text-slate-700 italic">"Sample Submission - [Your Name] - [Sample IDs]"</p>
                 </div>
               </div>
