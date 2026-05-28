@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn-primary { @apply bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700; }
+.btn-secondary { @apply border border-white px-6 py-3 rounded-lg; }
+.card { @apply bg-white p-6 rounded-xl shadow hover:shadow-lg transition; }
