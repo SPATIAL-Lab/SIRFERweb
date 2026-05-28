@@ -12,12 +12,8 @@ export default function Services() {
           {/* Carbon & Nitrogen Analysis */}
           <div className="border-l-4 border-blue-600 pl-6">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Carbon & Nitrogen Analysis (EA-IRMS)</h2>
-            <img 
-              src="/images/equipment/ea-irms-setup.jpg" 
-              alt="EA-IRMS equipment setup" 
-              className="w-full max-w-md rounded-lg mb-6 shadow-lg"
-            />
-            <div className="space-y-4">
+            <div className="flex flex-col lg:flex-row lg:items-start gap-6">
+              <div className="flex-1 space-y-4">
               <div>
                 <h3 className="text-xl font-semibold text-slate-800 mb-2">Method</h3>
                 <p className="text-slate-700">
@@ -53,6 +49,14 @@ export default function Services() {
                   <li>Can process foreign plant samples with permits</li>
                   <li>Accepts isotopically enriched samples (contact manager)</li>
                 </ul>
+              </div>
+              </div>
+              <div className="lg:w-80 w-full">
+                <img
+                  src="/images/equipment/ea-irms-setup.jpg"
+                  alt="EA-IRMS equipment setup"
+                  className="w-full rounded-lg shadow-lg"
+                />
               </div>
             </div>
           </div>

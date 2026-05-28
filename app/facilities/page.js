@@ -56,7 +56,7 @@ export default function Facilities() {
               <img 
                 src="/images/news/lab-design.png" 
                 alt="Sutton Building laboratory design" 
-                className="rounded-lg shadow-lg w-full h-auto"
+                className="rounded-lg shadow-lg size-auto object-cover"
               />
             </div>
           </div>
@@ -87,7 +87,7 @@ export default function Facilities() {
                 <img 
                   src="/images/equipment/ea-irms-detail.jpg" 
                   alt="EA-IRMS equipment detail" 
-                  className="rounded-lg w-full h-auto object-cover"
+                  className="rounded-lg size-auto object-cover"
                 />
               </div>
             </div>
