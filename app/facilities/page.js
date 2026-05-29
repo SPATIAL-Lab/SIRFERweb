@@ -35,7 +35,7 @@ export default function Facilities() {
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <p className="text-slate-700 mb-4">
-                After 3 decades in the Skaggs Biology Building, SIRFER is moving to a new state-of-the-art facility!
+                After 3 decades in the Skaggs Biology Building, SIRFER has moved to a new state-of-the-art facility in the Frederick Albert Sutton Building!
               </p>
               <div className="space-y-3 text-slate-700">
                 <div>
@@ -54,14 +54,19 @@ export default function Facilities() {
             </div>
             <div>
               <video
-                src="/images/news/IMG_5496.MOV"
                 aria-label="Sutton Building laboratory design"
+                poster="/images/news/lab-design.png"
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
                 autoPlay
                 loop
                 muted
                 playsInline
-              />
+                preload="metadata"
+              >
+                <source src="/images/news/IMG_5496-720.mp4" type="video/mp4" />
+                <source src="/images/news/IMG_5496-720.webm" type="video/webm" />
+                Your browser does not support the video tag.
+              </video>
             </div>
           </div>
         </div>
@@ -69,33 +74,7 @@ export default function Facilities() {
         {/* Instrumentation */}
         <div className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-8">Core Instrumentation</h2>
-          
           <div className="space-y-8">
-            {/* EA-IRMS System */}
-            <div className="border rounded-lg p-6 hover:shadow-lg transition">
-              <h3 className="text-xl font-bold text-slate-900 mb-3">Elemental Analysis - IRMS (EA-IRMS)</h3>
-              <div className="grid md:grid-cols-2 gap-6">
-                <div>
-                  <h4 className="font-semibold text-slate-800 mb-2">Purpose</h4>
-                  <p className="text-slate-700 mb-4">
-                    Carbon, nitrogen, and sulfur isotope analysis of solid samples
-                  </p>
-                  <h4 className="font-semibold text-slate-800 mb-2">Equipment</h4>
-                  <ul className="text-slate-700 space-y-1">
-                    <li>• Finnigan Mat Delta+ Advantage IRMS</li>
-                    <li>• Finnigan Mat Delta+ IRMS</li>
-                    <li>• Carlo Erba CHN EA1110 Elemental Analyzer</li>
-                    <li>• ThermoFinnigan Conflo III Interface</li>
-                  </ul>
-                </div>
-                <img 
-                  src="/images/equipment/ea-irms-detail.jpg" 
-                  alt="EA-IRMS equipment detail" 
-                  className="rounded-lg size-auto object-cover"
-                />
-              </div>
-            </div>
-
             {/* Continuous Flow System */}
             <div className="border rounded-lg p-6 hover:shadow-lg transition">
               <h3 className="text-xl font-bold text-slate-900 mb-3">Continuous Flow Isotope Ratio MS</h3>
