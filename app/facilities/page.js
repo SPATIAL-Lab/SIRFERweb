@@ -53,10 +53,14 @@ export default function Facilities() {
               </div>
             </div>
             <div>
-              <img 
-                src="/images/news/lab-design.png" 
-                alt="Sutton Building laboratory design" 
-                className="rounded-lg shadow-lg size-auto object-cover"
+              <video
+                src="/images/news/IMG_5496.MOV"
+                aria-label="Sutton Building laboratory design"
+                className="rounded-lg shadow-lg w-full h-auto object-cover"
+                autoPlay
+                loop
+                muted
+                playsInline
               />
             </div>
           </div>
