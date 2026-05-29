@@ -65,7 +65,7 @@ export default function Home() {
               <div className="border-l-4 border-blue-400 pl-6">
                 <h3 className="text-xl font-bold mb-2">New Facility - Sutton Building</h3>
                 <p className="text-slate-200 mb-3">
-                  After 3 decades in the Skaggs Biology Building, SIRFER is relocating to a new state-of-the-art facility 
+                  After 3 decades in the Skaggs Biology Building, SIRFER has relocated to a new state-of-the-art facility 
                   with over 3,000 square feet of laboratory and office space.
                 </p>
                 <a href="/facilities" className="text-blue-400 hover:text-blue-300">Learn more →</a>
@@ -73,7 +73,7 @@ export default function Home() {
               <div className="border-l-4 border-green-400 pl-6">
                 <h3 className="text-xl font-bold mb-2">NEON Partnership</h3>
                 <p className="text-slate-200 mb-3">
-                  SIRFER is celebrating 9+ years of supporting the National Ecological Observatory Network (NEON), 
+                  SIRFER is celebrating 10+ years of supporting the National Ecological Observatory Network (NEON), 
                   and has expanded to become the primary contract lab for water, algal, and vegetation isotope analysis.
                 </p>
                 <a href="/services" className="text-blue-400 hover:text-blue-300">View our services →</a>

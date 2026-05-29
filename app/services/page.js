@@ -68,18 +68,19 @@ export default function Services() {
               <div>
                 <h3 className="text-xl font-semibold text-slate-800 mb-2">Method</h3>
                 <p className="text-slate-700">
-                  High-precision measurement of stable hydrogen (δ²H) and oxygen (δ¹⁸O) isotope ratios in water
+                  Laser spectroscopy (IRIS) or continuous flow isotope ratio mass spectrometry (CF-IRMS)
                 </p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-slate-800 mb-2">Measures</h3>
-                <p className="text-slate-700">δ²H and δ¹⁸O ratios for water source, evaporation, and paleoclimate tracking</p>
+                <p className="text-slate-700">δ²H and δ¹⁸O ratios of water</p>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-slate-800 mb-2">Sample Types</h3>
                 <ul className="list-disc ml-6 text-slate-700 space-y-1">
                   <li>Groundwater and surface water</li>
                   <li>Precipitation and snow</li>
+                  <li>Beverages</li>
                   <li>Leaf water and organic water</li>
                   <li>Marine and estuarine samples</li>
                 </ul>
