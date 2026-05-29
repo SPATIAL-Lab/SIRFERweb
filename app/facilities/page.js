@@ -55,7 +55,7 @@ export default function Facilities() {
             <div>
               <video
                 aria-label="Sutton Building laboratory design"
-                poster="/images/news/lab-design.png"
+                poster="/images/news/IMG_5496-poster.png"
                 className="rounded-lg shadow-lg w-full h-auto object-cover"
                 autoPlay
                 loop
