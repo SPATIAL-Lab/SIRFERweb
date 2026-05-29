@@ -41,13 +41,13 @@ export default function Home() {
           <div className="grid md:grid-cols-3 gap-6">
             <Card
               title="Solid Analysis"
-              text="Carbon, Nitrogen, Sulfur Isotopes"
-              description="Elemental Analyzer - IRMS (EA-IRMS) for precise isotope measurements in plant tissues, soils, sediments, and other solid materials. Ideal for understanding environmental history and sample provenance."
+              text="H, O, C, N, and S Isotopes"
+              description="Continuous Flow - IRMS (CF-IRMS) for precise isotope measurements in plant tissues, soils, sediments, and other solid materials. Ideal for understanding environmental history and sample provenance."
             />
             <Card
               title="Water Isotopes"
               text="Hydrogen & Oxygen Analysis"
-              description="High-precision δ²H and δ¹⁸O measurements track source water, evaporation, and paleoclimate signals. Essential for hydrology, paleoclimate, and water cycling research."
+              description="High-precision δ²H and δ¹⁸O measurements track source water, evaporation, and paleoclimate signals. Essential for hydrology, ecology, paleoclimate, and water cycling research."
             />
             <Card
               title="Gas Analysis"
